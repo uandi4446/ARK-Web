@@ -1,0 +1,33 @@
+.col-1 {
+  float:left
+}
+.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;  
+  animation-duration: 1.5s; 
+  -webkit-animation-duration: 1.5s;
+  visibility: visible;      
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    } 
+}
+
+@-webkit-keyframes slideUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(50%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+

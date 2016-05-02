@@ -1,0 +1,62 @@
+<%- partial('layout/headlayout.ejs') %>
+<header>
+	<div class='searchbox file'>
+		<!--<h1 class='main-title'>PROJECT APK</h1>
+		<h2 class='main-subtitle'>온라인 모바일 분석 및 취약점 점검 서비스</h2>-->
+		<div class='upload-shape' style='display:flex'>
+			<input class='uploadFile' placeholder='어플리케이션을 업로드 해주세요' disabled='disabled' />
+			<div class='fileUpload btn btn-primary'>
+				<i class="fa fa-cloud-upload" aria-hidden="true"></i>
+			    <input id='uploadBtn' type='file' class='upload'  onclick="$('.uploadFile').click();"/>
+			</div>
+		</div>
+		<button class='upload-result' onclick="upload();">등록하기</button>
+	</div>
+	<div id='page-scroll-down'>
+		<i class='fa fa-angle-down menu' name='wrap' id='pagearrow'></i>
+	</div>
+</header>
+<section class='wrap' id='about'>
+	<div class='middle-space'>
+		<div class='middle-space-box'>
+			<h1>Application</h1>
+			<h2>Our planet deserves out best thinking</h2>
+			<hr class='colored'>
+		</div>
+		<div class='middle-space-box clearfix-after'>
+			<div class='col-1'>
+				<img id="slideImg" src='/img/toriphone.png' />
+			</div>
+			<div class='contents-box'>
+				<p class='contents'><b>create account</b></p>
+				<p class='contents'>Aoccdrnig to a rseearch taem at Cmabrigde Uinervtisy, it deosn't mttaer in waht oredr the ltteers in a wrod are, the olny iprmoatnt tihng is taht the frist and lsat ltteer be in the rghit pclae. Aoccdrnig to a rseearch taem at Cmabrigde Uinervtisy, it deosn't mttaer in waht oredr the ltteers in a wrod are, the olny iprmoatnt tihng is taht the frist and lsat ltteer be in the rghit pclae.</p>
+				<button class='btnA'>APK Upload</button>
+			</div>
+		</div>
+	</div>
+</section>
+<section class='wrap' id='process' style='background:#f5f5f5;'>
+	<div class='middle-space'>
+		<div class='middle-space-box'>
+			<h2>APK Interface</h2>
+		</div>
+		<div class='middle-space-box clearfix-after'>
+			<div class='col-1'>
+				<img id="slideImg" src='/img/eximg.png' />
+			</div>
+		</div>
+	</div>
+</section>
+<section class='wrap'>
+	<div class='middle-space'>
+		<div class='middle-space-box'>
+			<h2>APK Interface</h2>
+		</div>
+		<div class='middle-space-box clearfix-after'>
+			<div class='col-1'>
+				<img id="slideImg" src='/img/eximg.png' />
+			</div>
+		</div>
+	</div>
+</section>
+<%- partial('layout/footerlayout.ejs') %>
